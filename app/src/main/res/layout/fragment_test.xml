@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/eee2">
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="#999999"
+        android:id="@+id/fragment_test_but1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="创建群"/>
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/fragment_test_but1"
+        android:background="#999999"
+        android:id="@+id/fragment_test_but2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加好友"/>
+</RelativeLayout>
